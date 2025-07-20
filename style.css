@@ -188,10 +188,13 @@ input:active{
     transition: 0.4s ease;
 }
 
+.Icon a{
+    color: black;
+}
 .Icon a:hover{
     color: white;
     transition: 0.6s ease;
-    color: black;
+    color: white;
 }
 
 .foorgot-password{
