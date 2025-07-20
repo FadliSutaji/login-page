@@ -191,9 +191,15 @@ input:active{
 .Icon a:hover{
     color: white;
     transition: 0.6s ease;
+    color: black;
+}
+
+.foorgot-password{
+    color: black;
 }
 
 .forgot-password a{
+    color: black;
     transition: 0.5s ease;
 }
 
@@ -202,9 +208,13 @@ input:active{
     transition: 0.5s ease;
 }
 
+.New-user{
+    color: black;
+}
 .New-user a{
     margin-top: 10px;
     transition: 0.5s ease;
+    color: black;
 }
 
 .New-user a:hover{
