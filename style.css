@@ -1,0 +1,224 @@
+*{
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: TikTok Sans;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFAFCC ;
+}
+.Login-page{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC8DD;
+    border-color: #bde0fe;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 8px 24px rgba(254, 250, 224, 1);
+    border-radius: 8px;
+    transition: 0.7s ease;    
+}
+
+.Logo{
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.Logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-color: transparent;
+    height: auto;
+    filter: drop-shadow(0 0 9px #fefae0);
+}
+
+.Logo h1{
+    font-size: 24px;
+    padding: 0;
+}
+
+.Icon {
+    display: flex;
+    flex-direction: row;
+    transition: 0.6s ease;
+}
+
+.Icon a{
+    font-size: 24px;
+    letter-spacing: 15px;
+    transition: 0.6s ease;
+}
+
+.username{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: fit-content;
+    gap: 8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.username p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.username input{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    border-radius: 8;
+    padding: 16;
+    width: 300px;       /* fill container */
+    height: 20px;  
+    background-color: white;
+    overflow: hidden;
+    font-family: Inter;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.username label{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.username input:valid,
+input:focus,input:not(:placeholder-shown),
+input:active{
+    background-color: white;
+    overflow: hidden;
+    font-family: Inter;
+    border-color: black;
+}
+
+.password input{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    border-radius: 8;
+    padding: 16;
+    width: 300px;       /* fill container */
+    height: 20px;  
+    background-color: white;
+    overflow: hidden;
+    font-family: TikTok Sans;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.password input:valid,
+input:focus,input:not(:placeholder-shown),
+input:active{
+    background-color: white;
+    overflow: hidden;
+    font-family: Inter;
+    border-color: black;
+}
+
+.Sign-in{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.Sign-in button{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 8;
+    padding: 16;
+    width: 300px;       /* fill container */
+    height: 25px;  
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    font-family: TikTok Sans;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 1.7px;
+    border-style: solid;
+    transition: 0.4s ease;
+}
+
+.Sign-in button:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    transition: 0.4s ease;
+}
+
+.Icon a:hover{
+    color: white;
+    transition: 0.6s ease;
+}
+
+.forgot-password a{
+    transition: 0.5s ease;
+}
+
+.forgot-password a:hover{
+    color: white;
+    transition: 0.5s ease;
+}
+
+.New-user a{
+    margin-top: 10px;
+    transition: 0.5s ease;
+}
+
+.New-user a:hover{
+    color: white;
+    transition: 0.5s ease;
+}
+
+
+
+@keyframes muter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
